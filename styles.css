@@ -1,0 +1,129 @@
+body {
+    text-align: center;
+}
+
+/* Fonts */
+p {
+    font-family: font-family: 'Fira Sans', sans-serif;
+ 
+}
+
+h1,
+h2,
+li,
+.btn {
+    font-family: font-family: 'Roboto Condensed', sans-serif;
+}
+
+p, li{
+    font-size:1.4em;
+}
+
+/* styling*/
+i {
+    color: rgb(253, 73, 92);
+}
+
+h1 {
+    color: rgb(68, 95, 172);
+    font-weight: 600;
+}
+
+p,
+ul {}
+
+i,
+h1 {
+    font-size: 3em;
+}
+
+span {
+    width: 85px;
+    display: block;
+    margin: 0 auto;
+    border-bottom: solid 10px rgb(255, 73, 92);
+}
+
+h2 {
+    color: rgb(239, 72, 94);
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.btn-primary,
+.btn-primary:hover {
+    background-color: rgb(255, 73, 92);
+    border-color: rgb(255, 73, 92);
+    height: 60px;
+    width: 200px;
+    margin: 25px 5px;
+}
+
+
+/* list  */
+ul li {
+    padding: 0;
+    display: inline;
+}
+
+ul {
+    padding: 0;
+}
+
+li::before {
+    content: "\2022";
+    color: rgb(255, 73, 92);
+    font-weight: bold;
+    display: inline-block;
+    width: 1.2em;
+    margin-left: -5px;
+}
+
+.no_bullet::before {
+    display: none;
+}
+
+
+.town {
+    width: 100%;
+}
+
+/* media breaks */
+
+@media only screen and (min-width: 768px) {
+
+    .btn-primary,
+    .btn-primary:hover {
+        margin: 50px;
+        width: 250px;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+
+    .content{
+        width:50%;
+        float:right;
+    }
+
+    .paragraphContent{
+        display:inline-block;
+        text-align: left;
+        width:85%;
+    }
+    .imageLarger{
+        width:50%;
+        float:left;
+        height:100vh;
+
+    }
+
+    .town{
+        height:100%;
+    }
+
+    .btn-primary{
+        margin: 20px 50px;
+    }
+
+}
