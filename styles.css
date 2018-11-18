@@ -26,7 +26,7 @@ i {
 
 h1 {
     color: rgb(68, 95, 172);
-    font-weight: 600;
+    font-weight: 700;
 }
 
 p,
@@ -49,16 +49,23 @@ h2 {
     font-weight: 700;
     letter-spacing: 3px;
 }
+.btn-primary, .btn-primary:hover, {
+background-color: rgb(255, 73, 92);
+border-color: rgb(255, 73, 92);
+}
 
 .btn-primary,
-.btn-primary:hover {
-    background-color: rgb(255, 73, 92);
-    border-color: rgb(255, 73, 92);
+ {
     height: 60px;
     width: 200px;
     margin: 25px 5px;
 }
 
+.paragraphContent{
+    width:85%;
+    text-align: center;
+    margin:0 auto;
+}
 
 /* list  */
 ul li {
